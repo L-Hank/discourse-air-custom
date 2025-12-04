@@ -158,6 +158,11 @@
   margin-right: 0;
 }
 
+.topic-list .link-bottom-line {
+  order: 3;
+  margin-top: 1rem;
+}
+
 #site-text-logo {
   color: var(--primary);
 }
@@ -353,6 +358,7 @@ html body #main-outlet {
     tr {
       display: flex;
       border-bottom: none;
+      padding: 0.5em;
     }
     display: contents;
 
@@ -433,6 +439,9 @@ html body #main-outlet {
         width: 75%;
         order: 1;
         padding-left: 1rem;
+        display: flex;
+        flex-flow: column;
+        gap: .5rem;
       }
 
       .topic-list-data.posters {
@@ -485,7 +494,7 @@ html body #main-outlet {
 
       .link-top-line {
         display: block;
-        margin-bottom: 0.25em;
+        order: 1;
       }
 
       .title {
