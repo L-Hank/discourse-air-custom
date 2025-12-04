@@ -435,23 +435,6 @@ html body #main-outlet {
         }
       }
 
-      .topic-list .topic-excerpt {
-        max-width: 100%;
-        display: grid;
-      }
-
-      .topic-list .topic-excerpt span {
-        display: block;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        max-width: 100%;
-      }
-
-      .topic-list .topic-excerpt-more {
-        margin-top: .5rem;
-      }
-
       .topic-list-data.main-link {
         width: 75%;
         order: 1;
@@ -643,4 +626,21 @@ html body #main-outlet {
     width: 1.5em;
     height: 1.5em;
     padding: .1em;
+}
+
+.topic-list .topic-excerpt {
+  max-width: 100%;
+  display: grid;
+}
+
+.topic-list .topic-excerpt span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.topic-list .topic-excerpt-more {
+  margin-top: .5rem;
 }
