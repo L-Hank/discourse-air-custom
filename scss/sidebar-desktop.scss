@@ -60,6 +60,7 @@
   }
 
   .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo {
+    background-color: unset !important;
     width: 5rem;
     height: 5rem;
     min-height: unset;
