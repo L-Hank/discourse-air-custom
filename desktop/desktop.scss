@@ -1,3 +1,21 @@
 @import "showcased-categories";
 @import "chat-desktop";
 @import "sidebar-desktop";
+
+body{
+    --d-max-width: 1200px
+}
+
+#reply-control:not(.fullscreen).hide-preview {
+    left: 0 !important;
+    max-width: 1000px;
+    margin: auto !important;
+}
+
+#reply-control.open {
+    --min-height: 600px; 
+}
+
+#reply-control.hide-preview {
+    max-width: 1200px;
+}
