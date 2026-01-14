@@ -39,7 +39,7 @@ body {
 }
 
 .welcome-banner__title {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .sidebar-wrapper .sidebar-sections {
@@ -60,4 +60,8 @@ body {
 
 html body #main-outlet {
     max-width: 100%;
+}
+
+.welcome-banner__wrap {
+    padding-bottom: 4rem;
 }
